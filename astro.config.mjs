@@ -14,17 +14,6 @@ export default defineConfig({
         }),
       ],
 			title: 'NUOVOTAKA',
-			// head にアドセンスの script タグを追加
-      head: [
-        {
-          tag: 'script',
-          attrs: {
-            async: true,
-            src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2390425539078205', // 自身のクライアントIDに置き換え
-            crossorigin: 'anonymous',
-          },
-        },
-      ],
 			// social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			// sidebar: [
 			// 	{
